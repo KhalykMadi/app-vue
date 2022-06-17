@@ -14,10 +14,11 @@
 </template>
 
 <script>
-import ResumeView from './components/ResumeView.vue'
 import ResumeForm from './components/ResumeForm'
+import ResumeView from './components/ResumeView'
 import ResumeComments from './components/ResumeComments'
 import AppLoader from './components/AppLoader'
+
 export default {
   data() {
     return {
@@ -38,8 +39,7 @@ export default {
     }
   },
   components: {
-    ResumeForm, ResumeComments, AppLoader,ResumeView
+    ResumeForm, ResumeView, ResumeComments, AppLoader
   }
 }
 </script>
-
